@@ -141,6 +141,7 @@ header {
         -webkit-text-stroke-width: 1;
         -webkit-text-stroke-color: #979797;
         font-size: 1.3rem;
+        font-weight: bold;
         font-weight: 700;
         line-height: 23px; /* 176.923% */
         letter-spacing: -0.371px;
@@ -292,6 +293,73 @@ header {
         font-size: 2rem;
         font-weight: bold;
         letter-spacing: -0.301px;
+      }
+    }
+  }
+}
+
+.s-combos {
+  padding: 7rem 0;
+  .highlights {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3.2rem;
+    & > .box {
+      width: 26.3rem !important;
+      background: var(--yellow) !important;
+      h3 {
+        color: var(--white);
+        font-family: "Ubuntu", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+    .box {
+      border-radius: 1.2rem;
+      background: var(--bege);
+      width: 21.8rem;
+      height: 14.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+    ul {
+      flex: 1;
+      max-width: 92.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.6rem;
+    }
+  }
+
+  .area-slide {
+    position: relative;
+    margin-top: 6.2rem;
+    .btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 6.6rem;
+      height: 6.6rem;
+      background: var(--yellow);
+      z-index: 2;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &.prev {
+        left: -3.3rem;
+      }
+
+      &.next {
+        right: -3.3rem;
+        transform: translateY(-50%) rotate(180deg);
       }
     }
   }
