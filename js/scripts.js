@@ -8,7 +8,7 @@ var slide_combos = new Swiper(".slide-combos", {
     clickable: true,
   },
   navigation: {
-    nextEl: "s-combos .area-slide .btn.next",
-    prevEl: "s-combos .area-slide .btn.prev",
+    nextEl: ".s-combos .area-slide .next",
+    prevEl: ".s-combos .area-slide .prev",
   },
 });
