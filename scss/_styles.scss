@@ -64,6 +64,12 @@ header {
           display: flex;
           align-items: center;
           gap: 1.1rem;
+          transition: all 0.4s ease;
+          &:hover {
+            span {
+              background: var(--orange);
+            }
+          }
           span {
             color: var(--brown);
             font-family: "Ubuntu", sans-serif;
